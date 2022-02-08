@@ -39,6 +39,8 @@ class MainActivity : ComponentActivity() {
 fun Sayfa() {
     Row {
        Box(modifier = Modifier.size(86.dp).background(Color.Red))
+       Box(modifier = Modifier.size(55.dp).background(Color.Blue))
+       Box(modifier = Modifier.size(15.dp).background(Color.Magenta))
     }
 }
 
