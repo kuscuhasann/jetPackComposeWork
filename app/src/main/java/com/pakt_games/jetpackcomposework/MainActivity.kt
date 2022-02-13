@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Sayfa() {
-    Column(horizontalAlignment = Alignment.End) {
+    Column(verticalArrangement = Arrangement.Center) {
         Text(text = "Merhaba")
        Box(modifier = Modifier
            .size(86.dp)
